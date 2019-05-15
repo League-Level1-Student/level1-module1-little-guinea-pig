@@ -20,5 +20,21 @@ public class RaceCarRunner {
 
 		// 5. Help the car move into first place.
 
-	}
+		RaceCar car = new RaceCar("formula 7", 5);
+		System.out.println(car.getPositionInRace());
+		car.crash();
+		if(car.isDamaged()) {
+		car.pit();
+		
+	}car.overtake();
+	car.overtake();
+	car.overtake();
+	car.overtake();
+	car.overtake();
+	car.overtake();
+	car.overtake();
+	car.overtake();
+	car.overtake();
+		}
+	
 }
